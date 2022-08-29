@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+nav {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: center;
+}
+.snap {
+  margin-left: 50px;
+}
+.liens {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+.a0 {
+  margin-right: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 550;
+  letter-spacing: 0.14em;
+  line-height: 10 em;
+}
+.a1 {
+  margin-right: 10px;
+  color: grey;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  line-height: 10 em;
+}
+.about {
+  margin-right: 10px;
+  color: #00b39b;
+  text-decoration: none;
+  letter-spacing: 0.14em;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 2em;
+}
+.register {
+  margin-right: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 550;
+  letter-spacing: 0.14em;
+  line-height: 10 em;
+}
+.a0:hover {
+  transition: 0s;
+  color: rgba(0, 0, 0, 0.404);
+}
+.login {
+  display: inline-block;
+  margin-left: 400px;
+}
+.sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt1 {
+  height: 20vh;
+  width: 30.5%;
+  background-color: hsl(0, 0%, 98%);
+}
+.txt2 {
+  height: 20vh;
+  width: 30%;
+  background-color: hsl(0, 0%, 98%);
+}
+.logo {
+  margin-top: 60px;
+}
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+header h1 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #00b39b;
+  margin-bottom: 30px;
+}
+.txt1 {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.txt2 {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.drop {
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  height: 200px;
+  width: 250px;
+}
+.dropdown p {
+  margin-bottom: 20px;
+}
+.drop:hover .dropdown {
+  display: block;
+  box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.534);
+}
+.sec2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+.card1 {
+  height: 45vh;
+  width: 20%;
+  background-color: #00ccb1;
+  border-radius: 10px;
+}
+.card2 {
+  height: 45vh;
+  width: 20%;
+  background-color: #3d83df;
+  border-radius: 10px;
+}
+.card3 {
+  height: 45vh;
+  width: 20%;
+  background-color: #1b2734;
+  border-radius: 10px;
+}
+.card1:hover {
+  transition: 0.5s;
+  background-color: #00ffdd;
+}
+.card2:hover {
+  transition: 0.5s;
+  background-color: #59a0fc;
+}
+.card3:hover {
+  transition: 0.5s;
+  background-color: #3d454e;
+}
+.card1 h1,
+.card2 h1,
+.card3 h1 {
+  color: white;
+}
+.card1 p,
+.card2 p,
+.card3 p {
+  color: white;
+  margin-bottom: 50px;
+}
+select:hover {
+  cursor: pointer;
+}
+select {
+  color: black;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.logos {
+  display: flex;
+}
+.sec3 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  background: url(https://www.docplanner.com/img/logo.png);
+  background-repeat: no-repeat;
+  background-position: 5% 200%;
+  background-color: rgba(0, 179, 155, 0.192);
+  margin-top: 50px;
+  position: relative;
+}
+.tx {
+  width: 20%;
+  margin: 40px;
+  margin-right: 100px;
+}
+.log img {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards__item {
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.027);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+.cards__item:hover {
+  transition: 0.2s;
+  box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.534);
+}
+.cards__item button {
+  height: 30px;
+  width: 120px;
+  background-color: rgb(61, 131, 223);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.button1 {
+  height: 35px;
+  width: 250px;
+  background-color: rgb(61, 131, 223);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 150px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.sec4 button:hover {
+  transition: 0.5s;
+  background-color: rgb(27, 99, 194);
+}
+footer a {
+  text-decoration: none;
+  color: blue;
+}
+.txts3 {
+  width: 25%;
+  margin-left: 100px;
+  text-align: left;
+  margin-top: 60px;
+}
+.txts3 h1 {
+  color: #00b39b;
+  font-weight: 300;
+}
+.txts3 p {
+  color: #747474;
+  font-size: 0.875em;
+}
+.tx h1 {
+  color: #00b39b;
+  font-weight: 300;
+  text-align: left;
+}
+.h1 {
+  color: #00b39b;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #747474;
+  font-size: 0.875em;
+}
+.p {
+  color: #747474;
+  font-size: 0.875em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+.c1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 18%;
+  left: 60%;
+  top: 30%;
+  height: 210px;
+  padding-top: 10px;
+}
+.c1 h1 {
+  font-weight: 300;
+  color: #00b39b;
+}
+.c1 p {
+  color: #747474;
+  font-size: 0.875em;
+}
+.c2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  left: 80%;
+  top: 25%;
+  width: 18%;
+  height: 210px;
+  padding-top: 10px;
+}
+.c2 h1 {
+  font-weight: 300;
+  color: #00b39b;
+}
+.c2 p {
+  color: #747474;
+  font-size: 0.875em;
+}
+.c3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  height: 210px;
+  left: 60%;
+  top: 77%;
+  width: 18%;
+  height: 200px;
+  padding-top: 10px;
+}
+.c4 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  height: 210px;
+  left: 80%;
+  top: 72%;
+  width: 18%;
+  height: 200px;
+  padding-top: 10px;
+}
+.c3 h1 {
+  font-weight: 300;
+  color: #00b39b;
+}
+.c3 p {
+  color: #747474;
+  font-size: 0.875em;
+}
+.c4 h1 {
+  font-weight: 300;
+  color: #00b39b;
+}
+.c4 p {
+  color: #747474;
+  font-size: 0.875em;
+}
+.h2 {
+  color: #333;
+  font-weight: 300;
+}
